@@ -1,0 +1,29 @@
+{
+  "name": "distributed-http-gateway",
+  "version": "1.0.0",
+  "description": "HTTP to Distributed Gateway for the distributed framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/distributed-systems/distributed-http-gateway.git"
+  },
+  "keywords": [
+    "distributed-framework",
+    "gateway"
+  ],
+  "author": "Michael van der Weg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/distributed-systems/distributed-http-gateway/issues"
+  },
+  "homepage": "https://github.com/distributed-systems/distributed-http-gateway#readme",
+  "dependencies": {
+    "cachd": "^2.1.0",
+    "distributed-http-header-parser": "^0.1.0",
+    "ee-log": "^2.0.4",
+    "ee-types": "^2.1.4"
+  }
+}
